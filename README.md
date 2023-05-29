@@ -5,6 +5,8 @@ A repo dedicated to reproducing my results submitted for KDD-UC 2023 in "Deep Em
 # Original Data set and Dataset Wrangling
 Including our full serialized data sets was not convenient given GitHub's limitations, however, we provide code in 'data_wrangling.py' for users that can be applied on the directory of data from the CLA paradigm in Kaya et al. We also provide the link to manually download these data sets.
 
+Link for data: https://www.nature.com/articles/sdata2018211
+
 # Data Quality Checks
 To see code related to the figures in the paper related to the validity of augmented data, please view the 'data_quality_check.py' folder, which currently outputs the cross-correlation matrices between pairs of 1000 random samples from the originial and augmented data, and in commented code is what displays the results of the Kolmogorov-Smirnov tests
 
