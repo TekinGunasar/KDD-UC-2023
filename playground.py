@@ -4,7 +4,7 @@ from data_wrangling import *
 
 from sklearn.model_selection import train_test_split
 
-dataset = pickle.load(open('data_CLA_paradigm_filtered_8_13.pkl','rb'))
+dataset = pickle.load(open('data_CLA_paradigm.pkl','rb'))
 X = dataset[0]
 
 test_split = 0.2
@@ -34,10 +34,10 @@ y_new = []
 for label in augmented_dataset[1]:
     y_new.append(label[0][0])
 
-with open('augmented_data_CLA_paradigm_filtered_8_13.pkl','wb') as pickle_file:
+with open('augmented_data_CLA_paradigm.pkl','wb') as pickle_file:
     pickle.dump((X_aug,y_new),pickle_file)
 
-with open('test_data_CLA_filtered_8_13.pkl','wb') as pickle_file:
+with open('test_data_CLA_filtered.pkl','wb') as pickle_file:
     pickle.dump((X_test,y_test),pickle_file)
 
 
