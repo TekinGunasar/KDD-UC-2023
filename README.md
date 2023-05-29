@@ -3,9 +3,7 @@ A repo dedicated to reproducing my results submitted for KDD-UC 2023 in "Deep Em
 
 
 # Original Data set and Dataset Wrangling
-All of the original data set files from the dataset produced by Kaya et. al are included within the zipped folder denoted 'Original Data', while the datasets I extract that are further split into augmented, training, and testing data are in the 'Extracted Data' zipped folder
-
-To see code related to dataset wrangling, this is in the data_wrangling.py folder
+Including our full serialized data sets was not convenient given GitHub's limitations, however, we provide code in 'data_wrangling.py' for users that can be applied on the directory of data from the CLA paradigm in Kaya et al. We also provide the link to manually download these data sets.
 
 # Data Quality Checks
 To see code related to the figures in the paper related to the validity of augmented data, please view the 'data_quality_check.py' folder, which currently outputs the cross-correlation matrices between pairs of 1000 random samples from the originial and augmented data, and in commented code is what displays the results of the Kolmogorov-Smirnov tests
