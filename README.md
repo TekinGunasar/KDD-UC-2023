@@ -1,5 +1,5 @@
 # EDIT:
-Very happy that my paper was accepted for KDD-UC 2023, however, the organization of this repo is quite poor. Over the next couple of days I will organize this, create a more comprehensive notebook, and update changes.
+Very happy that my paper was accepted for KDD-UC 2023, however, the organization of this repo is quite poor and has some missing files. Over the next couple of days I will organize this, create a more comprehensive notebook, and update changes.
 
 The creation of this repo was a bit rushed to meet submission deadlines.
 
