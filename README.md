@@ -1,3 +1,10 @@
+#EDIT:
+Very happy that my paper was accepted for KDD-UC 2023, however, the organization of this repo is quite poor. Over the next couple of days I will organize this, create a more comprehensive notebook, and update changes.
+
+The creation of this repo was a bit rushed to meet submission deadlines.
+
+In the mean time if any interested parties has questions, I can be emailed at tgunasar@ucsd.edu
+
 # KDD-UC-2023
 A repo dedicated to reproducing my results submitted for KDD-UC 2023 in "Deep Embedded Clustering for Unsupervised Motor  Imagery Feature Learning
 
